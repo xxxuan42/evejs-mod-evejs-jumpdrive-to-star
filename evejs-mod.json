@@ -8,13 +8,13 @@
   "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "配合 AutoLockFire 的 HUD 跳跃按钮：星系终点落到恒星表面上方 1000km；空间站/建筑/星门/天体/小行星带/深空书签落到目标表面外 14m 的随机位置（不检查跳跃引擎、不扣燃料）。目标源码只追加、不修改。",
+  "description": "自包含的 HUD 跳跃按钮：登录载荷由本模组自己下发（不依赖 AutoLockFire，同时启用时只显示一个按钮）。星系终点落到恒星表面上方 1000km；空间站/建筑/星门/天体/小行星带/深空书签落到目标表面外 14m 的随机位置（不检查跳跃引擎、不扣燃料）。目标源码只追加、不修改。",
   "displayName": "一键跳跃到终点（精确落点）",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.0.1/evejs-jumpdrive-to-star-1.0.1.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.1.1/evejs-jumpdrive-to-star-1.1.1.zip"
     }
   ],
   "evejsVersions": [
@@ -30,12 +30,12 @@
   ],
   "repo": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
   "requiresRestart": true,
-  "sha256": "ded83aa47b2a8f09148b6bfd795cb8f1ea48496ecc569c19d14a5f03bbabd05c",
-  "sizeBytes": 22512,
+  "sha256": "719194650e0f93e13a478869414e7a74220ce82f498935abe45ec9ea7d20a364",
+  "sizeBytes": 66128,
   "tags": [
     "跳跃",
     "恒星",
     "HUD"
   ],
-  "version": "1.0.1"
+  "version": "1.1.1"
 }
