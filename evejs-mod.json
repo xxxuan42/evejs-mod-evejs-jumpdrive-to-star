@@ -14,7 +14,7 @@
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.2.1/evejs-jumpdrive-to-star-1.2.1.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.2.2/evejs-jumpdrive-to-star-1.2.2.zip"
     }
   ],
   "evejsVersions": [
@@ -24,17 +24,17 @@
   "highlights": [],
   "history": [],
   "id": "evejs-jumpdrive-to-star",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-09",
   "readme": [
     "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。跨星系播放约 3–4 秒旗舰跳跃动画，同星系内为瞬时位移。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。"
   ],
   "repo": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
   "requiresRestart": true,
-  "sha256": "5bc367b418d86c19a0d71eac25eaf111f60e92254ddf9f18278a79fd00b230e4",
-  "sizeBytes": 69266,
+  "sha256": "9803896fbaf07d4eae543201fe67b966691bce01fe3b8bb4953343266a8cc311",
+  "sizeBytes": 69835,
   "tags": [
     "跳跃",
     "HUD"
   ],
-  "version": "1.2.1"
+  "version": "1.2.2"
 }
