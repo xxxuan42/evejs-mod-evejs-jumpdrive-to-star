@@ -8,13 +8,13 @@
   "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。跨星系播放约 3–4 秒旗舰跳跃动画，同星系内为瞬时位移。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。",
+  "description": "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。未设终点时完整还原微型跳跃引擎（MJD）：充能 5 秒（播充能动画/音效）后跳到正前方 500km；若已锁定目标，或右键对目标选择接近/朝向，且目标表面距离 2–2000km，则落到目标表面外 1km（空间站/建筑/舰船均可）；被跃迁扰频器干扰时无法启动。跨星系播放约 3–4 秒旗舰跳跃动画，同星系内为瞬时位移。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。",
   "displayName": "跳跃引擎",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.3.1/evejs-jumpdrive-to-star-1.3.1.zip"
+      "url": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star/releases/download/v1.7.1/evejs-jumpdrive-to-star-1.7.1.zip"
     }
   ],
   "evejsVersions": [
@@ -25,19 +25,19 @@
   "highlights": [],
   "history": [],
   "id": "evejs-jumpdrive-to-star",
-  "publishedAt": "2026-11-10",
+  "publishedAt": "2026-11-13",
   "readme": [
     "跳跃引擎：一键把飞船跳到当前终点。用法：①在星图/信息面板把目标设为终点（星系、空间站、建筑、星门、天体、小行星带、深空书签、虫洞空间星系均可）；②点击 HUD 右侧的跳跃按钮（悬停可看使用说明）。落点规则：星系终点→恒星表面上方 1000km 随机点；空间站/建筑/星门/天体/小行星带/深空书签→目标表面外 14m 随机点。跨星系播放约 3–4 秒旗舰跳跃动画，同星系内为瞬时位移。任何飞船可用，不检查跳跃引擎、不消耗燃料、不检查距离。按钮与登录载荷由本模组自带；仅服务端内存补丁，不改客户端文件、数据库与服务端源码。"
   ],
   "repo": "https://github.com/xxxuan42/evejs-mod-evejs-jumpdrive-to-star",
   "requiresRestart": true,
-  "sha256": "76e293e6874299c885cd5a7f9c51bc3f2d54db575b2fcd815258379185b5e331",
-  "sizeBytes": 69852,
+  "sha256": "39e8a0761a913904cf1532da9dd86cbdc1be3ed113d54bca5d85de6de1847e4c",
+  "sizeBytes": 78043,
   "tags": [
     "跳跃引擎",
     "跳跃",
     "HUD",
     "落点"
   ],
-  "version": "1.3.1"
+  "version": "1.7.1"
 }
